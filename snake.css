@@ -1,0 +1,68 @@
+#body {
+    background-color: #375;
+  }
+  
+  #canvas {
+    display: block;
+    margin: 5px auto;
+    border: 10px solid #657;
+    
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#main {
+    background-color: black;
+    width: 600px;
+    height: 600px;
+    border: 10px solid yellow; 
+    position: relative;
+}
+
+#snake {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+#blokk {
+    background-color: pink;
+    width: 30px;
+    height: 30px;
+    left: 250px;
+    top: 250px;
+    position: absolute;
+}
+
+
+#poeng {
+    position: absolute;
+    left: 0px;
+    top: 610px;
+    width: 6em;
+    height: 2em;
+    background-color: darkolivegreen;
+    color: aliceblue;
+    border-radius: 0.5em;
+    text-align: center;
+    padding-top: 0.8em;
+} */
