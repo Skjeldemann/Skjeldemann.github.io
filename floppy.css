@@ -1,0 +1,63 @@
+#main {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 600px;
+    border: 2px solid green;
+    margin: 5%;
+    background-image: url("cityscape.png");
+    background-size: contain;
+    /* backgrouynd-repeat: no-repeat: */
+    /* backgrouynd-repeat: repeat-x: */
+    /* backgrouynd-repeat: bottom: */
+    background-repeat: repeat-x;
+    background-size: 600px 600px;
+    animation: bevegelse 3s linear infinite;
+    }         
+
+    @keyframes bevegelse {
+        0% { background-position: 600px;},
+        100% { background-position: 0px;}
+    }
+
+    #poeng {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        width: 50px;
+        height: 20px;
+        color: green;
+        font-size: 1.2em;
+    }
+     
+    #bird {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 255px;
+    top:255px;
+    background-image: url("swaggy-bird-flappy-bird.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 59ms;
+    }
+
+    #b1,#b2 {
+        position: absolute;
+      background: red;
+      animation: sbevegelse 3s linear infinite;
+      width: 50px;
+      height: 130px;
+      left: 600px;
+      top: 0px;
+    }
+
+    #b1 {
+       top: 470px;
+    }
+
+
+    @keyframes sbevegelse {
+        0% { left: 650px;}
+        100% { left: -250px;}
+    }
